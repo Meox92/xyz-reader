@@ -132,9 +132,9 @@ public class ArticleDetailFragment extends Fragment implements
         ((AppCompatActivity) getActivity()).setSupportActionBar(toolbar);
         ((AppCompatActivity) getActivity()).getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
-        CollapsingToolbarLayout collapsingToolbarLayout = (CollapsingToolbarLayout) mRootView.findViewById(R.id.collapsing_toolbar);
-        collapsingToolbarLayout.setTitle("titolo");
-        collapsingToolbarLayout.setExpandedTitleColor(getResources().getColor(android.R.color.transparent));
+        //CollapsingToolbarLayout collapsingToolbarLayout = (CollapsingToolbarLayout) mRootView.findViewById(R.id.collapsing_toolbar);
+       // collapsingToolbarLayout.setTitle("titolo");
+       // collapsingToolbarLayout.setExpandedTitleColor(getResources().getColor(android.R.color.transparent));
 
 
         mScrollView = (NestedScrollView) mRootView.findViewById(R.id.scrollview);
