@@ -109,6 +109,11 @@ public class ArticleDetailActivity extends AppCompatActivity
     }
 
     @Override
+    public void onBackPressed() {
+        finish();
+    }
+
+    @Override
     public Loader<Cursor> onCreateLoader(int i, Bundle bundle) {
         return ArticleLoader.newAllArticlesInstance(this);
     }

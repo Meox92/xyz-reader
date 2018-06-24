@@ -13,6 +13,7 @@ apply plugin: 'com.android.application'
 repositories {
     jcenter()
     mavenCentral()
+    google()
 }
 
 android {
@@ -35,4 +36,6 @@ dependencies {
     implementation 'com.squareup.okhttp3:okhttp:3.1.2'
     implementation 'com.android.support:design:25.0.1'
     implementation files('libs/volley.jar')
+    implementation 'com.squareup.picasso:picasso:2.71828'
+
 }
