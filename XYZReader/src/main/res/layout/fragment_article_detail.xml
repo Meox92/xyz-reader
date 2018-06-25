@@ -10,6 +10,7 @@
         android:id="@+id/appbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:elevation = "4dp"
         android:theme="@style/AppTheme.AppBarOverlay">
 
         <android.support.design.widget.CollapsingToolbarLayout
@@ -91,32 +92,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-            <!--            <FrameLayout
-                android:id="@+id/photo_container2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@color/photo_placeholder">
-                suppress AndroidLintContentDescription
-                <ImageView
-                    android:id="@+id/photo"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content" />
-
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="112dp"
-                    android:background="@drawable/photo_background_protection" />
-
-            </FrameLayout>-->
-
-            <!--<com.example.xyzreader.ui.MaxWidthLinearLayout-->
-                <!--android:layout_width="match_parent"-->
-                <!--android:layout_height="550dp"-->
-                <!--android:layout_marginTop="@dimen/detail_card_top_margin"-->
-                <!--android:background="#fff"-->
-                <!--android:elevation="2dp"-->
-                <!--android:maxWidth="@dimen/detail_card_max_width"-->
-                <!--android:orientation="vertical">-->
 
             <TextView
                     android:id="@+id/article_body"
@@ -131,7 +106,6 @@
                     android:textColorLink="@color/theme_accent"
                     android:textSize="@dimen/detail_body_text_size" />
 
-            <!--</com.example.xyzreader.ui.MaxWidthLinearLayout>-->
         </FrameLayout>
     </android.support.v4.widget.NestedScrollView>
 
@@ -142,6 +116,7 @@
         android:layout_height="wrap_content"
         android:src="@drawable/ic_share"
         app:fabSize="normal"
+        android:elevation = "8dp"
         app:layout_anchor="@id/appbar"
         app:layout_anchorGravity="bottom|right|end" />
 </android.support.design.widget.CoordinatorLayout>
